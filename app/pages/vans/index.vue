@@ -1,0 +1,3 @@
+<template>
+    vans page
+</template>
