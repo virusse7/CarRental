@@ -1,1 +1,83 @@
 @import "tailwindcss";
+
+@theme {
+  /* === Basic colors === */
+  --color-primary: #0ea5e9;
+  --color-primary-hover: #0284c7;
+
+  --color-secondary: #22c55e;
+  --color-secondary-hover: #16a34a;
+
+  /* === Background and navbar === */
+  --color-background: #0f172a;
+  --color-surface: #1e293b;
+  --color-navbar: #1e293b;
+  --color-navbar-hover: #334155;
+
+  /* === Text and links === */
+  --color-header: #f8fafc;
+  --color-paragraph: #cbd5e1;
+  --color-link: #38bdf8;
+  --color-link-hover: #0ea5e9;
+
+  /* === Button === */
+  --color-button-bg: #2563eb;
+  --color-button-hover: #1e40af;
+
+  /* === Fonts === */
+  --font-sans: "Lato", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+} 
+
+/* @theme light {
+  --color-background: #f9fafb;
+  --color-surface: #ffffff;
+  --color-navbar: #e5e7eb;
+  --color-navbar-hover: #d1d5db;
+
+  --color-header: #111827;
+  --color-paragraph: #374151;
+  --color-link: #2563eb;
+  --color-link-hover: #1e40af;
+
+  --color-button-bg: #3b82f6;
+  --color-button-hover: #1d4ed8;
+} */
+
+body {
+    @apply bg-background text-paragraph font-sans transition-colors duration-500
+}
+
+h1,h2,h3,h4 {
+    @apply font-heading text-header
+}
+
+p {
+  @apply text-paragraph;
+}
+
+a {
+  @apply text-link hover:text-link-hover transition-colors;
+}
+
+/* === Navbar === */
+.navbar {
+  @apply bg-navbar text-header flex items-center justify-between px-6 py-4;
+}
+.navbar a {
+  @apply text-link transition-colors duration-200;
+}
+.navbar a:hover {
+  @apply text-link-hover;
+}
+
+/* === Buttons === */
+.btn-primary {
+  @apply bg-primary text-white font-medium px-5 py-2 rounded-lg hover:bg-primary-hover transition-colors;
+}
+.btn-secondary {
+  @apply bg-secondary text-white font-medium px-5 py-2 rounded-lg hover:bg-secondary-hover transition-colors;
+}
+.btn-surface {
+  @apply bg-button-bg text-white px-4 py-2 rounded-lg hover:bg-button-hover transition-colors;
+}
