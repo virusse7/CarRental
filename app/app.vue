@@ -1,7 +1,14 @@
+<script setup>
+import Navbar from './components/ui/Navbar.vue';
+import Footer from './components/ui/Footer.vue';
+</script>
+
 <template>
     <div>
-        <NuxtRouteAnnouncer />
-        <NuxtWelcome />
-        <h1 class="text-red-500">hello</h1>
+        <Navbar />
+        <main>
+            <NuxtPage />
+        </main>
+        <Footer />
     </div>
 </template>
