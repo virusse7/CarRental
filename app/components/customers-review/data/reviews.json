@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Anna Kowalska",
+    "review": "I rented a car for a weekend trip and everything went perfectly. The booking process was simple, the car was clean and ready on time, and the staff were friendly and professional. I will definitely come back again!",
+    "country": "Poland"
+  },
+  {
+    "id": 2,
+    "name": "John Smith",
+    "review": "Fantastic experience! I booked online and picked up the car within 10 minutes. The staff explained everything clearly, and the car was in excellent condition. Highly recommend this service to anyone looking for reliability.",
+    "country": "United Kingdom"
+  },
+  {
+    "id": 3,
+    "name": "Maria Fernandez",
+    "review": "I was impressed by how fast and easy the rental process was. No hidden fees, no stress — just great service. The car was spotless and handled beautifully during my trip across Spain.",
+    "country": "Spain"
+  },
+  {
+    "id": 4,
+    "name": "Luca Bianchi",
+    "review": "Great selection of cars at affordable prices. The team was very responsive and helpful, even when I needed to extend my rental. I’ll be recommending this company to all my friends.",
+    "country": "Italy"
+  },
+  {
+    "id": 5,
+    "name": "Sophie Martin",
+    "review": "I’ve used many car rental services before, but this one truly stands out. The interface was intuitive, the car pickup was quick, and the entire experience felt seamless from start to finish.",
+    "country": "France"
+  },
+  {
+    "id": 6,
+    "name": "David Nguyen",
+    "review": "Amazing customer support! I had to change my booking last minute, and they handled everything quickly and without extra charges. The car was modern, clean, and very fuel-efficient.",
+    "country": "Australia"
+  },
+  {
+    "id": 7,
+    "name": "Emily Johnson",
+    "review": "The best car rental experience I’ve ever had. From easy online booking to smooth return, everything was organized perfectly. I especially appreciated the transparent pricing and no hidden fees.",
+    "country": "United States"
+  },
+  {
+    "id": 8,
+    "name": "Tobias Müller",
+    "review": "Professional, punctual, and friendly — that’s how I’d describe my experience. The car exceeded my expectations and made my business trip in Germany a lot easier. Highly satisfied!",
+    "country": "Germany"
+  },
+  {
+    "id": 9,
+    "name": "Emma Johansson",
+    "review": "A smooth and pleasant experience from start to finish. Booking online was quick, and the car I got was exactly what I expected. Great value for money and very friendly service.",
+    "country": "Sweden"
+  },
+  {
+    "id": 10,
+    "name": "Mateo Silva",
+    "review": "I rented a car for my family holiday and couldn’t be happier. The car was spacious, clean, and perfect for long drives. The entire team was polite and professional. Five stars from me!",
+    "country": "Portugal"
+  }
+]
