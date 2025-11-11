@@ -1,48 +1,34 @@
 @import "tailwindcss";
+@import "@nuxt/ui";
 
 @theme {
   /* === Basic colors === */
-  --color-primary: #0ea5e9;
-  --color-primary-hover: #0284c7;
-
-  --color-secondary: #22c55e;
-  --color-secondary-hover: #16a34a;
+  --color-primary: #C7FF00;
+  --color-primary-hover: #A3E000;
+  --color-secondary: #00C6FF;
+  --color-secondary-hover: #0099CC;
 
   /* === Background and navbar === */
-  --color-background: #0f172a;
-  --color-surface: #1e293b;
-  --color-navbar: #1e293b;
-  --color-navbar-hover: #334155;
+  --color-background: #0E1013;
+  --color-surface: #1A1C1F;
+  --color-navbar: #111315;
+  --color-navbar-hover: #1F1F1F;
 
   /* === Text and links === */
-  --color-header: #f8fafc;
-  --color-paragraph: #cbd5e1;
-  --color-link: #38bdf8;
-  --color-link-hover: #0ea5e9;
+  --color-header: #FFFFFF;
+  --color-paragraph: #B0B4BA;
+  --color-link: #C7FF00;
+  --color-link-hover: #A3E000;
 
   /* === Button === */
-  --color-button-bg: #2563eb;
-  --color-button-hover: #1e40af;
+  --color-button-bg: #B6FF00;
+  --color-button-hover: #A0E800;
+  --color-button-text: #0E1013;
 
   /* === Fonts === */
-  --font-sans: "Lato", sans-serif;
+  --font-body: "Lato", sans-serif;
   --font-heading: "Poppins", sans-serif;
 } 
-
-/* @theme light {
-  --color-background: #f9fafb;
-  --color-surface: #ffffff;
-  --color-navbar: #e5e7eb;
-  --color-navbar-hover: #d1d5db;
-
-  --color-header: #111827;
-  --color-paragraph: #374151;
-  --color-link: #2563eb;
-  --color-link-hover: #1e40af;
-
-  --color-button-bg: #3b82f6;
-  --color-button-hover: #1d4ed8;
-} */
 
 body {
     @apply bg-background text-paragraph font-sans transition-colors duration-500
@@ -60,6 +46,10 @@ a {
   @apply text-link hover:text-link-hover transition-colors;
 }
 
+section {
+    @apply p-2 my-2
+}
+
 /* === Navbar === */
 .navbar {
   @apply bg-navbar text-header flex items-center justify-between px-6 py-4;
@@ -71,13 +61,33 @@ a {
   @apply text-link-hover;
 }
 
+/* === Footer === */
+.footer {
+  @apply bg-surface text-header flex items-center justify-between px-6 py-4;
+}
+.footer a {
+  @apply text-link transition-colors duration-200;
+}
+.footer a:hover {
+  @apply text-link-hover;
+}
+
 /* === Buttons === */
 .btn-primary {
-  @apply bg-primary text-white font-medium px-5 py-2 rounded-lg hover:bg-primary-hover transition-colors;
+  @apply bg-primary text-background font-medium px-5 py-2 rounded-full hover:bg-primary-hover transition-colors;
 }
 .btn-secondary {
-  @apply bg-secondary text-white font-medium px-5 py-2 rounded-lg hover:bg-secondary-hover transition-colors;
+  @apply bg-secondary text-background font-medium px-5 py-2 rounded-lg hover:bg-secondary-hover transition-colors;
 }
 .btn-surface {
-  @apply bg-button-bg text-white px-4 py-2 rounded-lg hover:bg-button-hover transition-colors;
+  @apply bg-button-bg text-background px-4 py-2 rounded-lg hover:bg-button-hover transition-colors;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.4s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
