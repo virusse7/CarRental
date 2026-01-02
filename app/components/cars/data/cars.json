@@ -1,0 +1,277 @@
+{
+  "suv": [
+    {
+      "id": 1,
+      "fullName": "Michael Carter",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.7",
+      "percentRating": "94",
+      "price": "68",
+      "car": "Range Rover Sport",
+      "time": "90",
+      "bgColor": "bg-gradient-to-br from-lime-500 to-emerald-700"
+    },
+    {
+      "id": 2,
+      "fullName": "Ava Thompson",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.8",
+      "percentRating": "96",
+      "price": "73",
+      "car": "BMW X7",
+      "time": "60",
+      "bgColor": "bg-gradient-to-br from-green-500 to-green-800"
+    },
+    {
+      "id": 3,
+      "fullName": "Daniel Reed",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.6",
+      "percentRating": "92",
+      "price": "70",
+      "car": "Audi Q8",
+      "time": "75",
+      "bgColor": "bg-gradient-to-br from-lime-600 to-emerald-800"
+    },
+    {
+      "id": 4,
+      "fullName": "Isabella White",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.9",
+      "percentRating": "98",
+      "price": "80",
+      "car": "Volvo XC90",
+      "time": "40",
+      "bgColor": "bg-gradient-to-br from-emerald-500 to-green-900"
+    },
+    {
+      "id": 5,
+      "fullName": "William Scott",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.8",
+      "percentRating": "96",
+      "price": "78",
+      "car": "Mercedes GLE",
+      "time": "55",
+      "bgColor": "bg-gradient-to-br from-green-600 to-emerald-700"
+    },
+    {
+      "id": 6,
+      "fullName": "Emily Davis",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "5.0",
+      "percentRating": "100",
+      "price": "85",
+      "car": "Porsche Cayenne",
+      "time": "35",
+      "bgColor": "bg-gradient-to-br from-lime-500 to-green-900"
+    }
+  ],
+
+  "limousine": [
+    {
+      "id": 7,
+      "fullName": "John Doe",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.8",
+      "percentRating": "96",
+      "price": "75",
+      "car": "Mercedes-Benz S-Class",
+      "time": "50",
+      "bgColor": "bg-gradient-to-br from-fuchsia-500 to-purple-800"
+    },
+    {
+      "id": 8,
+      "fullName": "Sophia Miller",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "5.0",
+      "percentRating": "100",
+      "price": "88",
+      "car": "BMW 7 Series",
+      "time": "120",
+      "bgColor": "bg-gradient-to-br from-purple-600 to-violet-900"
+    },
+    {
+      "id": 9,
+      "fullName": "Olivia Johnson",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.9",
+      "percentRating": "98",
+      "price": "82",
+      "car": "Tesla Model S",
+      "time": "35",
+      "bgColor": "bg-gradient-to-br from-fuchsia-600 to-violet-800"
+    },
+    {
+      "id": 10,
+      "fullName": "Henry Parker",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.7",
+      "percentRating": "94",
+      "price": "79",
+      "car": "Lexus LS 600",
+      "time": "65",
+      "bgColor": "bg-gradient-to-br from-violet-600 to-purple-900"
+    },
+    {
+      "id": 11,
+      "fullName": "Ella Martinez",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.8",
+      "percentRating": "96",
+      "price": "83",
+      "car": "Jaguar XJ",
+      "time": "45",
+      "bgColor": "bg-gradient-to-br from-fuchsia-700 to-purple-900"
+    },
+    {
+      "id": 12,
+      "fullName": "Liam Anderson",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.9",
+      "percentRating": "98",
+      "price": "86",
+      "car": "Genesis G90",
+      "time": "55",
+      "bgColor": "bg-gradient-to-br from-purple-500 to-fuchsia-900"
+    }
+  ],
+
+  "sport": [
+    {
+      "id": 13,
+      "fullName": "Emma Wilson",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "5.0",
+      "percentRating": "100",
+      "price": "84",
+      "car": "Porsche Panamera",
+      "time": "45",
+      "bgColor": "bg-gradient-to-br from-red-500 to-rose-800"
+    },
+    {
+      "id": 14,
+      "fullName": "Ethan Brown",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.5",
+      "percentRating": "90",
+      "price": "60",
+      "car": "Audi R8",
+      "time": "75",
+      "bgColor": "bg-gradient-to-br from-rose-600 to-red-900"
+    },
+    {
+      "id": 15,
+      "fullName": "Lucas Martinez",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.9",
+      "percentRating": "98",
+      "price": "89",
+      "car": "Ferrari Portofino",
+      "time": "40",
+      "bgColor": "bg-gradient-to-br from-red-600 to-pink-900"
+    },
+    {
+      "id": 16,
+      "fullName": "Charlotte King",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.8",
+      "percentRating": "96",
+      "price": "77",
+      "car": "Lamborghini Huracán",
+      "time": "55",
+      "bgColor": "bg-gradient-to-br from-rose-500 to-red-800"
+    },
+    {
+      "id": 17,
+      "fullName": "Noah Harris",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.7",
+      "percentRating": "94",
+      "price": "79",
+      "car": "McLaren 720S",
+      "time": "65",
+      "bgColor": "bg-gradient-to-br from-red-700 to-rose-900"
+    },
+    {
+      "id": 18,
+      "fullName": "Amelia Lopez",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "5.0",
+      "percentRating": "100",
+      "price": "90",
+      "car": "Aston Martin DB11",
+      "time": "50",
+      "bgColor": "bg-gradient-to-br from-rose-600 to-red-950"
+    }
+  ],
+
+  "sedan": [
+    {
+      "id": 19,
+      "fullName": "Jack Turner",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.6",
+      "percentRating": "92",
+      "price": "62",
+      "car": "Audi A6",
+      "time": "70",
+      "bgColor": "bg-gradient-to-br from-slate-400 to-gray-600"
+    },
+    {
+      "id": 20,
+      "fullName": "Grace Collins",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.8",
+      "percentRating": "96",
+      "price": "67",
+      "car": "BMW 5 Series",
+      "time": "55",
+      "bgColor": "bg-gradient-to-br from-gray-600 to-slate-900"
+    },
+    {
+      "id": 21,
+      "fullName": "Benjamin Rivera",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.7",
+      "percentRating": "94",
+      "price": "69",
+      "car": "Mercedes-Benz E-Class",
+      "time": "60",
+      "bgColor": "bg-gradient-to-br from-zinc-400 to-neutral-600"
+    },
+    {
+      "id": 22,
+      "fullName": "Harper Mitchell",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.9",
+      "percentRating": "98",
+      "price": "74",
+      "car": "Volvo S90",
+      "time": "45",
+      "bgColor": "bg-gradient-to-br from-stone-400 to-gray-900"
+    },
+    {
+      "id": 23,
+      "fullName": "Leo Morgan",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.8",
+      "percentRating": "96",
+      "price": "71",
+      "car": "Genesis G80",
+      "time": "40",
+      "bgColor": "bg-gradient-to-br from-neutral-600 to-gray-800"
+    },
+    {
+      "id": 24,
+      "fullName": "Chloe Adams",
+      "avatar": "carbon:user-avatar-filled",
+      "rating": "4.9",
+      "percentRating": "98",
+      "price": "78",
+      "car": "Lexus ES 350",
+      "time": "55",
+      "bgColor": "bg-gradient-to-br from-slate-600 to-gray-800"
+    }
+  ]
+}
