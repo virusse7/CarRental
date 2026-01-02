@@ -15,6 +15,6 @@ defineProps({
                 <span>{{ country }}</span>
             </div>
         </div>
-        <p class="text-xs text-header! mt-1">{{ review }}</p>
+        <p class="text-xs sm:text-sm text-header! mt-1">{{ review }}</p>
     </div>
 </template>
