@@ -1,7 +1,7 @@
 <script setup>
 import reviews from './data/reviews.json';
 import ReviewTile from './ReviewTile.vue';
-
+import CtaButton from '../ui/CtaButton.vue';
 
 import { ref } from 'vue';
 
@@ -10,10 +10,11 @@ const showAll = ref(false);
 </script>
 
 <template>
-    <section>
-        <div class="flex flex-col md:items-center md:flex-row gap-2">
+    <section id="customers">
+        <div class="flex flex-col justify-between md:items-center md:flex-row gap-2">
             <h3 class="text-3xl">What our enchanted customers say</h3>
-            <p>Discover why thousands of drivers choose us every day.
+            <p class="md:w-1/2">
+                Discover why thousands of drivers choose us every day.
                 Real experiences from real customers who trusted our car rental service.
             </p>
         </div>
@@ -29,10 +30,7 @@ const showAll = ref(false);
         </transition>
 
         <div class="flex justify-center items-center mt-4">
-            <button class="btn-primary" @click="showAll = !showAll">
-                {{ showAll ? 'Show less' : 'Show more' }}
-            </button>
+            <CtaButton @click="showAll = !showAll" :title="`${showAll ? 'Show less' : 'Show more'}`" />
         </div>
-
     </section>
 </template>
