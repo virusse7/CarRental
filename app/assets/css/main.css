@@ -30,6 +30,14 @@
   --font-heading: "Poppins", sans-serif;
 } 
 
+html {
+    scroll-behavior: smooth;
+} 
+
+main {
+    @apply max-w-[1920px] mx-auto
+}
+
 body {
     @apply bg-background text-paragraph font-sans transition-colors duration-500
 }
@@ -47,7 +55,7 @@ a {
 }
 
 section {
-    @apply p-2 my-2
+    @apply p-2 my-2 mx-1
 }
 
 /* === Navbar === */
@@ -63,7 +71,7 @@ section {
 
 /* === Footer === */
 .footer {
-  @apply bg-surface text-header flex items-center justify-between px-6 py-4;
+  @apply bg-navbar text-header flex items-center justify-center px-6 py-4;
 }
 .footer a {
   @apply text-link transition-colors duration-200;
@@ -74,7 +82,7 @@ section {
 
 /* === Buttons === */
 .btn-primary {
-  @apply bg-primary text-background font-medium px-5 py-2 rounded-full hover:bg-primary-hover transition-colors;
+  @apply bg-primary text-background font-medium px-5 py-2 rounded-full hover:bg-primary-hover transition-colors duration-500;
 }
 .btn-secondary {
   @apply bg-secondary text-background font-medium px-5 py-2 rounded-lg hover:bg-secondary-hover transition-colors;
