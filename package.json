@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-  "deploy": "npm run generate && npx gh-pages -d .output/public",
+   "deploy": "npm run generate && npx gh-pages -d .output/public --branch gh-pages",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
