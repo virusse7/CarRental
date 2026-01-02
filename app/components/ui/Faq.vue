@@ -1,4 +1,5 @@
 <script setup>
+import CtaButton from './CtaButton.vue';
 const items = ref([
     {
         label: 'What is CarRental?',
@@ -25,7 +26,7 @@ const items = ref([
 </script>
 
 <template>
-    <section class="flex flex-col sm:grid sm:grid-cols-2 gap-2">
+    <section id="questions" class="flex flex-col sm:grid sm:grid-cols-2 gap-2">
         <div class="flex flex-col gap-4">
             <h3 class="text-3xl">
                 Frequently Asked Questions (FAQ)
@@ -41,16 +42,12 @@ const items = ref([
                     <input type="email" placeholder="Enter your email"
                         class="text-sm w-full border-2 border-paragraph rounded-full py-2 pl-10 pr-3 focus:outline-none focus:border-primary transition" />
                 </div>
-                <Button
-                    class="btn-primary text-sm flex flex-row items-center justify-center gap-2 w-full max-w-xs sm:max-w-[120px]">
-                    <span>Submit</span>
-                    <Icon name="ooui:arrow-next-ltr" />
-                </Button>
+                <CtaButton title="Submit" icon="ooui:arrow-next-ltr" class="text-sm w-full max-w-xs sm:max-w-[120px]" />
             </div>
         </div>
-        <UAccordion class="text-header" :items="items">
+        <UAccordion class="text-header" :ui="{ content: 'pb-4' }" :items="items">
             <template #content="{ item }">
-                <span class="text-sm text-paragraph">{{ item.content }}</span>
+                <span class="text-sm  text-paragraph">{{ item.content }}</span>
             </template>
         </UAccordion>
     </section>
